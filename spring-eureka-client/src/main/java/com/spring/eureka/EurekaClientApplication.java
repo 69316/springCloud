@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
- * @description: $  添加注释11122
+ * @description: $  添加注释
  * @return: $
  * @author: Andy
  * @time: $ $
