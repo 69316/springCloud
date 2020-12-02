@@ -1,0 +1,4 @@
+com\spring\feign\controller\FeignController.class
+com\spring\feign\service\FeignRemoteService.class
+com\spring\feign\FeignApplication.class
+com\spring\feign\hystrix\HystrixFeignRemoteCallBack.class

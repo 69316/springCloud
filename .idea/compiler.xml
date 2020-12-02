@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-eureka-service" />
+        <module name="springcloud-ribbon-client" />
+        <module name="spring-eureka-client" />
+        <module name="springcloud-gatway-service" />
+        <module name="springcloud-feign-client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-eureka-client" target="1.8" />
+      <module name="spring-eureka-service" target="1.8" />
+      <module name="springCloud" target="1.8" />
+      <module name="springcloud-feign-client" target="1.8" />
+      <module name="springcloud-gatway-service" target="1.8" />
+      <module name="springcloud-ribbon-client" target="1.8" />
+      <module name="springcloud-zuul-server" target="1.8" />
+      <module name="springcloud-zuul-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-eureka-client" options="-parameters" />
+      <module name="spring-eureka-service" options="-parameters" />
+      <module name="springcloud-feign-client" options="-parameters" />
+      <module name="springcloud-gatway-service" options="-parameters" />
+      <module name="springcloud-ribbon-client" options="-parameters" />
+      <module name="springcloud-zuul-server" options="-parameters" />
+      <module name="springcloud-zuul-service" options="-parameters" />
+    </option>
+  </component>
+</project>
